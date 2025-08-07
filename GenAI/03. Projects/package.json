@@ -1,0 +1,17 @@
+{
+  "name": "03.-projects",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saksham agrahari",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.13.0",
+    "dotenv": "^17.2.1",
+    "readline-sync": "^1.4.10"
+  }
+}
