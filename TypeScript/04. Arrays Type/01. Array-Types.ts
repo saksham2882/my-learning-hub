@@ -20,4 +20,18 @@
 // Example:
 // 1. Basic Array Types
 const arr : number[] = [1, 2, 3, 4, 5];
-console.log(arr);                              // Output: [1, 2, 3, 4,
+console.log(arr);                              // Output: [1, 2, 3, 4]
+
+
+const items : string[] = [];
+items.push("Apple");
+// items.push(14);
+// items.push(true);
+console.log(items);
+
+
+// Alternate - Syntax :
+const arr1 : Array<number> = [1, 4, 8];
+arr1.push(38);
+// arr1.push("Hello");
+console.log(arr1);
