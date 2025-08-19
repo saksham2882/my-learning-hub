@@ -1,0 +1,543 @@
+[
+  {
+    "id": "1",
+    "title": "Coffee",
+    "steps": [
+      "Boil 1 cup of water in a kettle.",
+      "Add 1 teaspoon of coffee to a coffee filter.",
+      "Pour the boiling water over the coffee filter.",
+      "Wait for 3-5 minutes for the coffee to brew."
+    ],
+    "image": "/coffee.png",
+    "description": "A simple yet refreshing cup of cofee to kickstart your day",
+    "ingredients": [
+      "1 cup of water",
+      "1 teaspoon of coffee",
+      "1 coffee filter",
+      "sugar",
+      "Milk"
+    ],
+    "tags": ["breakfast", "coffee", "morning"],
+    "servings": 1,
+    "cooking_time": "5 minutes",
+    "difficulty": "easy",
+    "category": "breakfast",
+    "rating": 4.5,
+    "reviews": 10,
+    "price": "$2.99"
+  },
+  {
+    "id": "2",
+    "title": "Pasta",
+    "steps": [
+      "Boil 1 cup of water in a kettle.",
+      "Add 1 cup of pasta to the boiling water.",
+      "Wait for 8-10 minutes for the pasta to cook.",
+      "Drain the water and add your favorite sauce."
+    ],
+    "image": "/pasta.png",
+    "description": "A classic Italian dish that is easy to make and delicious to eat",
+    "ingredients": [
+      "1 cup of water",
+      "1 cup of pasta",
+      "1 cup of sauce",
+      "salt",
+      "pepper"
+    ],
+    "tags": ["lunch", "dinner", "italian"],
+    "servings": 2,
+    "cooking_time": "10 minutes",
+    "difficulty": "easy",
+    "category": "lunch",
+    "rating": 4.2,
+    "reviews": 5,
+    "price": "$3.99"
+  },
+  {
+    "id": "3",
+    "title": "Grilled Cheese",
+    "steps": [
+      "Butter 2 slices of bread.",
+      "Place 1 slice of bread in a pan.",
+      "Add 1 slice of cheese to the bread.",
+      "Place the second slice of bread on top of the cheese.",
+      "Cook until the bread is golden brown and the cheese is melted."
+    ], 
+    "image": "/grilled_cheese.png",
+    "description": "A classic comfort food that is easy to make and delicious to eat",
+    "ingredients": ["2 slices of bread", "1 slice of cheese", "butter"],
+    "tags": ["breakfast", "lunch", "snack"],
+    "servings": 1,
+    "cooking_time": "5 minutes",
+    "difficulty": "easy",
+    "category": "breakfast",
+    "rating": 4.5,
+    "reviews": 10,
+    "price": "$2.99"
+  },
+  {
+    "id": "4",
+    "title": "Salad",
+    "steps": [
+      "Wash and chop 2 cups of lettuce.",
+      "Add 1 cup of cherry tomatoes.",
+      "Add 1 cup of cucumber slices.",
+      "Add 1 cup of cheese cubes.",
+      "Drizzle with dressing."
+    ],
+    "image": "/salad.png",
+    "description": "A fresh and healthy salad that is perfect for any meal",
+    "ingredients": [
+      "2 cups of lettuce",
+      "1 cup of cherry tomatoes",
+      "1 cup of cucumber slices",
+      "1 cup of cheese cubes",
+      "dressing"
+    ],
+    "tags": ["lunch", "dinner", "healthy"],
+    "servings": 1,
+    "cooking_time": "5 minutes",
+    "difficulty": "easy",
+    "category": "lunch",
+    "rating": 4.8,
+    "reviews": 20,
+    "price": "$4.99"
+  },
+  {
+    "id": "5",
+    "title": "Fried Chicken",
+    "steps": [
+      "Season 2 chicken breasts with salt and pepper.",
+      "Dredge the chicken in flour.",
+      "Dip the chicken in eggs.",
+      "Dredge the chicken in breadcrumbs.",
+      "Fry the chicken in a pan until golden brown."
+    ],
+    "image": "/fried chicken.png",
+    "description": "A crispy and delicious fried chicken that is perfect for any meal",
+    "ingredients": ["2 chicken breasts", "flour", "eggs", "breadcrumbs", "oil"],
+    "tags": ["lunch", "dinner", "comfort food"],
+    "servings": 2,
+    "cooking_time": "20 minutes",
+    "difficulty": "medium",
+    "category": "lunch",
+    "rating": 4.2,
+    "reviews": 15,
+    "price": "$6.99"
+  },
+  {
+    "id": "6",
+    "title": "Cheese",
+    "steps": [
+      "Butter 2 slices of bread.",
+      "Place cheese in between the bread slices.",
+      "Grill the sandwich in a pan until golden brown."
+    ],
+    "image": "/cheese.png",
+    "description": "A classic and delicious grilled cheese that is perfect for any meal",
+    "ingredients": ["2 slices of bread", "cheese", "butter"],
+    "tags": ["lunch", "dinner", "comfort food"],
+    "servings": 1,
+    "cooking_time": "5 minutes",
+    "difficulty": "easy",
+    "category": "lunch",
+    "rating": 4.5,
+    "reviews": 10,
+    "price": "$3.99"
+  },
+  {
+    "id": "7",
+    "title": "Veg Momos",
+    "steps": [
+      "Mix all the ingredients together.",
+      "Make small balls out of the mixture.",
+      "Steam the momos until they are cooked."
+    ],
+    "image": "/veg momos.png",
+    "description": "A delicious and healthy veg momos that is perfect for any meal",
+    "ingredients": [
+      "1 cup of flour",
+      "1 cup of water",
+      "1/2 cup of chopped cabbage",
+      "1/2 cup of chopped carrots",
+      "1/2 cup of chopped onions",
+      "1/2 cup of chopped bell peppers",
+      "1/2 cup of chopped mushrooms",
+      "1/2 cup of chopped spinach",
+      "1/2 cup of chopped cilantro",
+      "1/2 cup of chopped green chilies"
+    ],
+    "tags": ["lunch", "dinner", "healthy"],
+    "servings": 4,
+    "cooking_time": "20 minutes",
+    "difficulty": "medium",
+    "category": "lunch",
+    "rating": 4.8,
+    "reviews": 20,
+    "price": "$5.99"
+  },
+  {
+    "id": "8",
+    "title": "Paneer Tikka Masala",
+    "steps": [
+      "Marinate the paneer in spices and yogurt.",
+      "Grill the paneer until it is cooked.",
+      "Make a masala sauce and add the grilled paneer to it."
+    ],
+    "image": "/paneer tikka masala.png",
+    "description": "A delicious and creamy paneer tikka masala that is perfect for any meal",
+    "ingredients": [
+      "1 cup of paneer",
+      "1 cup of yogurt",
+      "1/2 cup of lemon juice",
+      "1/2 cup of ghee",
+      "1/2 cup of chopped onions",
+      "1/2 cup of chopped tomatoes",
+      "1/2 cup of chopped cilantro",
+      "1/2 cup of chopped green chilies",
+      "1/2 cup of garam masala",
+      "1/2 cup of cumin powder",
+      "1/2 cup of coriander powder",
+      "1/2 cup of cumin seeds",
+      "1/2 cup of coriander seeds"
+    ],
+    "tags": ["lunch", "dinner", "indian"],
+    "servings": 2,
+    "cooking_time": "30 minutes",
+    "difficulty": "hard",
+    "category": "lunch",
+    "rating": 4.9,
+    "reviews": 15,
+    "price": "$7.99"
+  },
+  {
+    "id": "9",
+    "title": "Tea",
+    "steps": [
+      "Boil water in a kettle.",
+      "Add tea leaves to the boiling water.",
+      "Steep the tea leaves for 3-5 minutes."
+    ],
+    "image": "/tea.png",
+    "description": "A simple and refreshing tea that is perfect for any time of day",
+    "ingredients": ["1 cup of water", "1 teaspoon of tea leaves"],
+    "tags": ["breakfast", "lunch", "dinner"],
+    "servings": 1,
+    "cooking_time": "5 minutes",
+    "difficulty": "easy",
+    "category": "breakfast",
+    "rating": 4.5,
+    "reviews": 10,
+    "price": "$0.99"
+  },
+  {
+    "id": "10",
+    "title": "Fried Rice",
+    "steps": [
+      "Heat oil in a pan.",
+      "Add onions and garlic and sauté until they are translucent.",
+      "Add the cooked rice and stir-fry for 2-3 minutes.",
+      "Add soy sauce and stir-fry for another minute."
+    ],
+    "image": "/fried rice.png",
+    "description": "A simple and delicious fried rice dish that is perfect for any meal",
+    "ingredients": [
+      "2 cups of cooked rice",
+      "1 cup of mixed vegetables",
+      "2 tablespoons of vegetable oil",
+      "2 cloves of garlic",
+      "1 onion",
+      "2 teaspoons of soy sauce"
+    ],
+    "tags": ["lunch", "dinner"],
+    "servings": 4,
+    "cooking_time": "20 minutes",
+    "difficulty": "medium",
+    "category": "lunch",
+    "rating": 4.8,
+    "reviews": 20,
+    "price": "$3.99"
+  },
+  {
+    "id": "11",
+    "title": "veg Roll",
+    "steps": [
+      "Prepare the filling by mixing together the vegetables and spices.",
+      "Lay a spring roll wrapper on a flat surface.",
+      "Place a tablespoon of the filling in the center of the wrapper.",
+      "Fold the bottom half of the wrapper over the filling, then fold in the sides and roll up the wrapper to form a tight cylinder.",
+      "Repeat with the remaining wrappers and filling."
+    ],
+    "image": "/veg roll.png",
+    "description": "A delicious and healthy veg roll that is perfect for any meal",
+    "ingredients": [
+      "1 cup of mixed vegetables",
+      "2 tablespoons of vegetable oil",
+      "2 cloves of garlic",
+      "1 onion",
+      "2 teaspoons of soy sauce",
+      "2 tablespoons of cornstarch",
+      "2 tablespoons of water",
+      "2 tablespoons of chopped cilantro"
+    ],
+    "tags": ["lunch", "dinner"],
+    "servings": 4,
+    "cooking_time": "20 minutes",
+    "difficulty": "medium",
+    "category": "lunch",
+    "rating": 4.8,
+    "reviews": 20,
+    "price": "$3.99"
+  },
+  {
+    "id": "12",
+    "title": "Veg Maggi",
+    "steps": [
+      "Boil the maggi noodles according to the package instructions.",
+      "Heat oil in a pan and sauté the onions and garlic until they are translucent.",
+      "Add the mixed vegetables and cook until they are tender.",
+      "Add the cooked noodles to the pan and stir in the soy sauce and tomato ketchup.",
+      "Serve hot and garnish with chopped cilantro."
+    ],
+    "image": "/veg maggi.png",
+    "description": "A simple and delicious veg maggi recipe that is perfect for any meal",
+    "ingredients": [
+      "1 cup of maggi noodles",
+      "2 tablespoons of vegetable oil",
+      "1 onion",
+      "2 cloves of garlic",
+      "1 cup of mixed vegetables",
+      "2 tablespoons of soy sauce",
+      "2 tablespoons of tomato ketchup",
+      "2 tablespoons of chopped cilantro"
+    ],
+    "tags": ["lunch", "dinner"],
+    "servings": 4,
+    "cooking_time": "15 minutes",
+    "difficulty": "easy",
+    "category": "lunch",
+    "rating": 4.5,
+    "reviews": 15,
+    "price": "$2.99"
+  },
+  {
+    "id": "13",
+    "title": "Pani Puri",
+    "steps": [
+      "Boil the potatoes and peel them.",
+      "Mash the boiled potatoes and mix with the tamarind chutney, green ch utney, and cumin powder.",
+      "Fill the puris with the potato mixture and serve immediately."
+    ],
+    "image": "/pani_puri.jpg",
+    "description": "A classic street food snack that is easy to make and delicious to eat",
+    "ingredients": [
+      "4-5 puris",
+      "2 medium-sized potatoes",
+      "1/2 cup of tamarind chutney",
+      "1/4 cup of green chutney",
+      "1 teaspoon of cumin powder",
+      "1/4 teaspoon of chaat masala",
+      "1/4 teaspoon of black salt"
+    ],
+    "tags": ["snack", "street food"],
+    "servings": 4,
+    "cooking_time": "10 minutes",
+    "difficulty": "easy",
+    "category": "snack",
+    "rating": 4.5,
+    "reviews": 10,
+    "price": "$1.99"
+  },
+  {
+    "id": "14",
+    "title": "Popcorn",
+    "steps": [
+      "Heat the oil in a pan and add the popcorn kernels.",
+      "Cover the pan with a lid and cook until the kernels start to pop.",
+      "Remove the pan from the heat and let it cool for a few seconds.",
+      "Add salt and any other seasonings you like to the popcorn and serve."
+    ],
+    "image": "/popcorn.png",
+    "description": "A classic snack that is easy to make and fun to eat",
+    "ingredients": [
+      "1/4 cup of popcorn kernels",
+      "2 tablespoons of oil",
+      "1/2 teaspoon of salt",
+      "Optional: any other seasonings you like"
+    ],
+    "tags": ["snack", "movie night"],
+    "servings": 4,
+    "cooking_time": "5 minutes",
+    "difficulty": "easy",
+    "category": "snack",
+    "rating": 4.5,
+    "reviews": 10,
+    "price": "$1.99"
+  },
+  {
+    "id": "15",
+    "title": "Falooda",
+    "steps": [
+      "Cook the noodles according to the package instructions.",
+      "In a separate pan, heat the milk and sugar until the sugar dissolves.",
+      "Add the vermicelli noodles to the milk mixture and cook until they are well coated.",
+      "Add the rose syrup and cardamom powder to the mixture and stir well.",
+      "Serve the falooda in glasses and garnish with chopped nuts and dried fruit."
+    ],
+    "image": "/falooda.png",
+    "description": "A popular Indian dessert that is easy to make and fun to eat",
+    "ingredients": [
+      "1 cup of noodles",
+      "2 cups of milk",
+      "1 cup of sugar",
+      "1/4 cup of rose syrup",
+      "1/2 teaspoon of cardamom powder",
+      "Chopped nuts and dried fruit for garnish"
+    ],
+    "tags": ["dessert", "Indian"],
+    "servings": 4,
+    "cooking_time": "15 minutes",
+    "difficulty": "medium",
+    "category": "dessert",
+    "rating": 4.2,
+    "reviews": 8,
+    "price": "$2.99"
+  },
+  {
+    "id": "16",
+    "title": "Paneer Dosa",
+    "steps": [
+      "Soak the rice and lentils in water for 4-5 hours.",
+      "Grind the soaked rice and lentils into a smooth batter.",
+      "Add the salt and mix well.",
+      "Heat a non-stick pan and pour a ladle of the batter onto it.",
+      "Spread the batter evenly and cook until the dosa is golden brown.",
+      "Add the paneer filling and fold the dosa in half.",
+      "Serve the paneer dosa hot with chutney or sambar."
+    ],
+    "image": "/paneer dosa.png",
+    "description": "A popular South Indian dish that is easy to make and delicious to eat",
+    "ingredients": [
+      "1 cup of rice",
+      "1 cup of lentils",
+      "1/2 cup of water",
+      "1/2 teaspoon of salt",
+      "1 cup of paneer filling",
+      "Chutney or sambar for serving"
+    ],
+    "tags": ["breakfast", "Indian"],
+    "servings": 4,
+    "cooking_time": "20 minutes",
+    "difficulty": "medium",
+    "category": "breakfast",
+    "rating": 4.5,
+    "reviews": 10,
+    "price": "$3.99"
+  },
+  {
+    "id": "17",
+    "title": "Idli",
+    "steps": [
+      "Soak the rice and lentils in water for 4-5 hours.",
+      "Grind the soaked rice and lentils into a smooth batter.",
+      "Add the salt and mix well.",
+      "Heat a non-stick pan and pour a ladle of the batter onto it.",
+      "Spread the batter evenly and cook until the idli is golden brown.",
+      "Serve the idli hot with chutney or sambar."
+    ],
+    "image": "/idli.png",
+    "description": "A popular South Indian dish that is easy to make and delicious to eat",
+    "ingredients": [
+      "1 cup of rice",
+      "1 cup of lentils",
+      "1/2 cup of water",
+      "1/2 teaspoon of salt",
+      "Chutney or sambar for serving"
+    ],
+    "tags": ["breakfast", "Indian"],
+    "servings": 4,
+    "cooking_time": "20 minutes",
+    "difficulty": "medium",
+    "category": "breakfast",
+    "rating": 4.5,
+    "reviews": 10,
+    "price": "$3.99"
+  },
+  {
+    "id": "18",
+    "title": "Paneer Pizza",
+    "steps": [
+      "Preheat the oven to 400°F (200°C).",
+      "Roll out the pizza dough and place it on a baking sheet.",
+      "Spread the pizza sauce over the dough, leaving a small border around the edges.",
+      "Add the toppings of your choice, such as cheese, vegetables, and meats.",
+      "Bake the pizza in the preheated oven for 15-20 minutes, or until the crust is golden brown and the cheese is melted and bubbly.",
+      "Remove the pizza from the oven and let it cool for a few minutes before slicing and serving"
+    ],
+    "image": "/paneer pizza.png",
+    "description": "A delicious and easy-to-make pizza recipe with a twist of Indian flavors",
+    "ingredients": [
+      "1 cup of pizza dough",
+      "1 cup of pizza sauce",
+      "1 cup of shredded cheese",
+      "1 cup of toppings of your choice",
+      "1 tablespoon of olive oil"
+    ],
+    "tags": ["pizza", "Indian"],
+    "servings": 4,
+    "cooking_time": "20 minutes",
+    "difficulty": "medium",
+    "category": "dinner",
+    "rating": 4.5,
+    "reviews": 10,
+    "price": "$4.99"
+  },
+  {
+    "id": "19",
+    "title": "Mango Juice",
+    "steps": [
+      "Peel and chop the mango into small pieces.",
+      "Add the mango pieces to a blender or juicer.",
+      "Add a little water to the blender or juicer to help the mango blend smoothly.",
+      "Blend the mango until it is smooth and creamy.",
+      "Strain the juice into a glass and serve immediately."
+    ],
+    "image": "/mango juice.png",
+    "description": "A refreshing and healthy juice recipe made with mango.",
+    "ingredients": ["2 ripe mangos", "1 cup of water", "Ice cubes (optional)"],
+    "tags": ["juice", "mango"],
+    "servings": 2,
+    "cooking_time": "5 minutes",
+    "difficulty": "easy",
+    "category": "breakfast",
+    "rating": 4.8,
+    "reviews": 20,
+    "price": "$2.99"
+  },
+  {
+    "id": "20",
+    "title": "Ice Cream",
+    "steps": [
+      "Combine the cream, sugar, and vanilla extract in a bowl.",
+      "Whisk the mixture until it is smooth and creamy.",
+      "Pour the mixture into an ice cream maker and churn according to the manufacturer's instructions.",
+      "Transfer the ice cream to an airtight container and place it in the freezer to hard en.",
+      "Once the ice cream is hard, scoop it into bowls and serve immediately."
+    ],
+    "image": "/realistic ice cream.png",
+    "description": "A classic and delicious ice cream recipe",
+    "ingredients": [
+      "1 cup of heavy cream",
+      "1 cup of granulated sugar",
+      "1 tsp of vanilla extract"
+    ],
+    "tags": ["ice cream", "dessert"],
+    "servings": 4,
+    "cooking_time": "10 minutes",
+    "difficulty": "medium",
+    "category": "dessert",
+    "rating": 4.9,
+    "reviews": 30,
+    "price": "$3.99"
+  }
+]
