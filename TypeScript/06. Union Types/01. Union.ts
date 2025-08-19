@@ -1,8 +1,12 @@
 // Union Types in TypeScript:
 
-//   - Union types are used to represent a value that can be one of several types.
-//   - They are defined using the '|' symbol, which is read as "or" or "union".
-//   - For example, the type "string | number" represents a value that can be either a string or a number.
+// - Union types allow a value to be one of several types.
+// - Defined using the '|' (pipe) symbol, read as "or".
+// - Example: string | number means the value can be either a string or a number.
+// - Very useful when a variable can accept multiple kinds of values.
+// - TypeScript forces you to handle all possible cases when using unions.
+// - Can be combined with literal types for stricter value control.
+// - Often used with type narrowing (e.g., using typeof or in checks).
 
 
 // Example 1: Simple Union Type

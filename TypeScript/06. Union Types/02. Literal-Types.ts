@@ -1,9 +1,10 @@
 // Literal Types in TypeScript:
 
-//  - Literal types are a new feature in TypeScript that allows you to define a type that is a specific value or a set of specific values.
-//  - They are useful when you want to restrict a type to a specific value or a set of values.
-//  - Literal types are defined using the `as const` assertion, which tells TypeScript to treat the value as a literal type.
-//  - You can also use the `Literal` type from the `typescript` module to define a literal type.
+// - Literal types let you define a type that is exactly a specific value.
+// - They can be string, number, or boolean values.
+// - Useful when you want to restrict a variable to a fixed set of values.
+// - Often combined with union types (e.g., "red" | "blue" | "green").
+// - The `as const` assertion can be used to infer literal types from values automatically.
 
 //  - Literal types allows you to specify a value that can only be 'one specific literal value'. This means that a variable with a literal type can only have one specific value and no other value.
 
