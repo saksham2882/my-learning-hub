@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .navbar ul li {
+            margin: 0 10px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .navbar .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .navbar .hamburger span {
+            background: white;
+            height: 3px;
+            width: 25px;
+            margin: 3px 0;
+        }
+
+        .hero {
+            background: url('https://static.vecteezy.com/system/resources/previews/006/852/804/original/abstract-blue-background-simple-design-for-your-website-free-vector.jpg') no-repeat center center/cover;
+            height: 500px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .about {
+            padding: 40px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .about h2 {
+            margin-bottom: 20px;
+        }
+
+        .blogs {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .blog-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .blog-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: left;
+        }
+
+        .blog-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .blog-card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .blog-card a:hover {
+            text-decoration: underline;
+        }
+
+        .courses {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .courses h2 {
+            margin-bottom: 20px;
+        }
+
+        .course-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .course-card {
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .course-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .course-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .course-card p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .buy-now {
+            background-color: #4CAF50;
+            color: white;
+            margin-right: 10px;
+        }
+
+        .buy-now:hover {
+            background-color: #45a049;
+        }
+
+        .add-to-cart {
+            background-color: #f0ad4e;
+            color: white;
+        }
+
+        .add-to-cart:hover {
+            background-color: #ec971f;
+        }
+
+        .contact {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .navbar ul {
+                display: none;
+            }
+
+            .navbar .hamburger {
+                display: flex;
+            }
+
+            .hero h1 {
+                font-size: 30px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">BlogZone</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to BlogZone</h1>
+        <p>Your one-stop destination for insightful tutorials and articles.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            BlogZone is a platform for sharing knowledge, tutorials, and experiences across various domains.
+            We aim to create a community of learners and professionals.
+        </p>
+    </section>
+
+    <section id="blogs" class="blogs">
+        <h2>Our Latest Blogs</h2>
+        <div class="blog-container">
+            <div class="blog-card">
+                <h3>How to Learn JavaScript</h3>
+                <p>Discover effective tips and resources for mastering JavaScript in 2024.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-card">
+                <h3>Mastering React</h3>
+                <p>Understand the fundamentals of React and build dynamic user interfaces.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-card">
+                <h3>Introduction to Cybersecurity</h3>
+                <p>Learn how to secure your online presence with these basic cybersecurity tips.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <h2>Our Courses</h2>
+        <div class="course-container">
+            <div class="course-card">
+                <img src="https://d2ms8rpfqc4h24.cloudfront.net/Guide_to_Full_Stack_Development_000eb0b2d0.jpg" alt="Full-Stack Development">
+                <h3>Full-Stack Development</h3>
+                <p>Price: ₹20,000</p>
+                <button class="buy-now">Buy Now</button>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="course-card">
+                <img src="https://i.ytimg.com/vi/GnFVtC-BSjc/maxresdefault.jpg" alt="React Mastery">
+                <h3>React Mastery</h3>
+                <p>Price: ₹15,000</p>
+                <button class="buy-now">Buy Now</button>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="course-card">
+                <img src="https://redteamworldwide.com/wp-content/uploads/2021/01/cyber-security-best-practices-1280x720-1-768x432.jpg" alt="Cybersecurity Essentials">
+                <h3>Cybersecurity Essentials</h3>
+                <p>Price: ₹12,000</p>
+                <button class="buy-now">Buy Now</button>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email us at: support@blogzone.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BlogZone. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

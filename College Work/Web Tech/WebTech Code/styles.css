@@ -1,0 +1,90 @@
+/* General body styling */
+courses {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 30px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+course {
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    width: 60%;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+course name {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    display: block;
+}
+
+course price {
+    font-size: 1.3em;
+    color: #27ae60;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+course duration {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-top: 5px;
+    display: block;
+}
+
+courses {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #34495e;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+body {
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    course {
+        width: 80%;
+    }
+
+    name {
+        font-size: 1.6em;
+    }
+
+    price {
+        font-size: 1.2em;
+    }
+
+    duration {
+        font-size: 1.1em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}

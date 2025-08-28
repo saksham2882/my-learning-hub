@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #003366;
+            color: #fff;
+        }
+
+        .header img {
+            height: 70px;
+            margin-right: 20px;
+            border-radius: 0 20px;
+        }
+
+        .header h1 {
+            font-size: 30px;
+        }
+
+        /* Navbar */
+        .navbar {
+            text-align: center;
+            background-color: #0055a5;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .navbar a:not(:last-child)::after {
+            content: "|";
+            margin-left: 15px;
+        }
+
+        /* Main Content */
+        .college-info,
+        .contact-form {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            max-width: 1000px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .college-info h2 {
+            text-align: center;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+
+        .college-info h3 {
+            margin-top: 15px;
+            color: #0055a5;
+        }
+
+        .college-info p {
+            margin: 10px 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .college-info ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .college-info li {
+            margin: 5px 0;
+            line-height: 1.5;
+        }
+
+        /* Two Column Section */
+        .two-column {
+            display: flex;
+            gap: 20px;
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+
+        .courses table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .courses th,
+        .courses td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .courses th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .courses tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .campus {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .campus-heading {
+            font-size: 24px;
+            color: #0055a5;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .campus-image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .courses,
+        .college-image {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .courses h3,
+        .college-info h3 {
+            margin-bottom: 10px;
+        }
+
+        .college-image img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+
+        /* Contact Form */
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #0055a5;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #004080;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <img src="https://th.bing.com/th/id/R.6a7d5d82d6183e5c9cc7c4210cb87fcc?rik=t1tewEC%2bERcx%2fQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-1qQnofhkUoU%2fTyff-H7HiHI%2fAAAAAAAAAc4%2fY715zinH1I4%2fs1600%2fUniversity_of_Toronto_Free_Democrats_Logo-Vvallpaper.Net.jpg&ehk=zmip9ctx%2bJXoJ%2bXKW1VCeudheMe7VNkyTGqi2sp1ti4%3d&risl=&pid=ImgRaw&r=0"
+            alt="College Logo">
+        <h1>XYZ College of Technology</h1>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#admission">Admission</a>
+        <a href="#courses">Courses</a>
+        <a href="#campus">Campus</a>
+    </nav>
+
+    <!-- College Info -->
+    <section class="college-info">
+        <h2>About XYZ College of Technology</h2>
+
+        <p><strong>Established:</strong> 1985, XYZ College has been committed to excellence in education, focusing on
+            the
+            development of innovative professionals.</p>
+
+        <h3>History</h3>
+        <p>Founded with a mission to advance technical education, XYZ College has grown into a renowned institution,
+            initially offering two engineering programs and now covering multiple disciplines across undergraduate,
+            postgraduate, and doctoral levels.</p>
+
+        <h3>Our Mission</h3>
+        <p>Our mission is to empower students with knowledge, foster research, and encourage industry collaboration. XYZ
+            College stands for integrity, inclusivity, and a commitment to high standards in all endeavors.</p>
+
+        <h3>Facilities</h3>
+        <ul>
+            <li><strong>Library:</strong> Thousands of books, journals, and digital resources available.</li>
+            <li><strong>Modern Labs:</strong> Hands-on facilities for computer science, electronics, and more.</li>
+            <li><strong>Hostels:</strong> Safe and comfortable accommodation for students.</li>
+            <li><strong>Sports Complex:</strong> Cricket, football, basketball courts, and a fully equipped gym.</li>
+        </ul>
+    </section>
+
+    <section class="two-column">
+        <div class="courses">
+            <h3>Courses Offered</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>No. of Seats</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B.Tech in Computer Science</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>B.Tech in Electronics</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>B.Tech in Mechanical</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>B.Sc in Physics</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>B.Sc in Chemistry</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>B.Com</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>M.Tech in Data Science</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>M.Sc in Mathematics</td>
+                        <td>40</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="campus">
+            <h3 class="campus-heading">College Campus</h3>
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/28417430_20220223171025.jpg"
+                alt="College Image" class="campus-image">
+
+        </div>
+
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 XYZ College of Technology. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

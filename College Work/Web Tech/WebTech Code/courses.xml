@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+
+<!DOCTYPE courses [
+    <!ELEMENT courses (course+)>
+    <!ELEMENT course (name, price, duration)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT duration (#PCDATA)>
+]>
+
+<courses>
+    <course>
+        <name>Full-Stack Development</name>
+        <price>₹20000</price>
+        <duration>6 months</duration>
+    </course>
+    <course>
+        <name>React Mastery</name>
+        <price>₹15000</price>
+        <duration>4 months</duration>
+    </course>
+    <course>
+        <name>Cybersecurity Essentials</name>
+        <price>₹12000</price>
+        <duration>3 months</duration>
+    </course>
+</courses>
