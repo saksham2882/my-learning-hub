@@ -75,7 +75,7 @@ nav ul li a:hover {
 /* HeroSection */
 .hero-food {
     text-align: center;
-    background: url("background_1.jpg") center/cover no-repeat;
+    background: url("/assets/background_1.jpg") center/cover no-repeat;
     color: white;
     padding: 9rem 1rem;
     border-radius: 10px;
@@ -412,7 +412,7 @@ footer a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('food_loader_animation.gif') no-repeat center center/cover;
+    background: url('/assets/food_loader_animation.gif') no-repeat center center/cover;
 }
 
 #spinner::before{
