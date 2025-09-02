@@ -8,6 +8,7 @@
 // - Class property types can be primitive (string, number, boolean), arrays, objects, or custom types.
 
 
+// 1. Properties Annotations
 class Person{
     name: string;
     age: number;
