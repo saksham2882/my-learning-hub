@@ -11,3 +11,11 @@
 | Recipe Finder      | [Folder](./React/React%20Learning%20Projects/03.%20recipe-finder-app)    | [Live Demo](https://myrecipe-docs.vercel.app/) |
 
 ---
+
+### ⚡ Next.js Projects
+
+| Project Name             | Folder Path                                   | Demo Link |
+|--------------------------|-----------------------------------------------|-----------|
+| Practice-Project-2 | [Folder](./Next.js/practice-2)    | [Live Demo](https://saksham-lab.vercel.app/) |
+
+---
