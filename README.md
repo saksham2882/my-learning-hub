@@ -16,6 +16,7 @@
 
 | Project Name             | Folder Path                                   | Demo Link |
 |--------------------------|-----------------------------------------------|-----------|
+| Practice-Project-1 | [Folder](./Next.js/practice_1)    | [Live Demo](https://saksham-lab1.vercel.app/) |
 | Practice-Project-2 | [Folder](./Next.js/practice-2)    | [Live Demo](https://saksham-lab.vercel.app/) |
 
 ---
